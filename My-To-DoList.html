@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My ToDo App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1 class="center">📝 My Todo List</h1>
+  <button id="toggleTheme" class="btn">🌓</button>
+
+  <div class="top-bar">
+    <input class="inputfield" type="text" id="inputfield" placeholder="Enter Task" />
+    <button id="addtask" class="btn primary">Add Task</button>
+  </div>
+
+  <div class="filters">
+    <button class="btn filter" data-filter="all">All</button>
+    <button class="btn filter" data-filter="done">Done</button>
+    <button class="btn filter" data-filter="pending">Pending</button>
+  </div>
+
+  <ol id="tasklist"></ol>
+
+  <script src="script.js"></script>
+</body>
+</html>
